@@ -21,6 +21,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *LabelEight;
 @property (strong, nonatomic) IBOutlet UILabel *LabelNine;
 @property (strong, nonatomic) IBOutlet UILabel *whichPlayerLabel;
+@property (strong, nonatomic) IBOutlet UILabel *myPoint;
 
 @property (strong, nonatomic) IBOutlet UIButton *LabelHelp;
 
@@ -38,14 +39,23 @@
     NSLog(@"viewDidLoad");
 
 }
--(void)findLabelUsingPoint {
-    NSLog(@"findLabelUsingPoint");
-
-}
+//-(CGPoint)findLabelUsingPoint:(CGPoint)point {
+//    NSLog(@"findLabelUsingPoint");
+//    CGPoint myPoint = [point.x]
+//    NSLog(@"point.x %f point.y is %f", self.myPoint.
+//    CGPoint myPoint = (
+//    return myPoint;
+//
+//}
 
 - (IBAction)onLabelTapped:(UITapGestureRecognizer *)sender {
     NSLog(@"onLabelTapped");
+    CGPoint point = [sender locationInView:self.view];
+    if (CGRectContainsPoint(self.LabelOne.frame, point)) {
+        NSLog(@"Labelone Tapped");
+    }
 
-}
+
+    }
 
 @end
