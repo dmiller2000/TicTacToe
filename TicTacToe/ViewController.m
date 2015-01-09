@@ -11,23 +11,25 @@
 @interface ViewController ()
 
 
-@property (strong, nonatomic) IBOutlet UILabel *LabelOne;
-@property (strong, nonatomic) IBOutlet UILabel *LabelTwo;
-@property (strong, nonatomic) IBOutlet UILabel *LabelThree;
-@property (strong, nonatomic) IBOutlet UILabel *LabelFour;
-@property (strong, nonatomic) IBOutlet UILabel *LabelFive;
-@property (strong, nonatomic) IBOutlet UILabel *LabelSix;
-@property (strong, nonatomic) IBOutlet UILabel *LabelSeven;
-@property (strong, nonatomic) IBOutlet UILabel *LabelEight;
-@property (strong, nonatomic) IBOutlet UILabel *LabelNine;
+@property (strong, nonatomic) IBOutlet UILabel *labelOne;
+@property (strong, nonatomic) IBOutlet UILabel *labelTwo;
+@property (strong, nonatomic) IBOutlet UILabel *labelThree;
+@property (strong, nonatomic) IBOutlet UILabel *labelFour;
+@property (strong, nonatomic) IBOutlet UILabel *labelFive;
+@property (strong, nonatomic) IBOutlet UILabel *labelSix;
+@property (strong, nonatomic) IBOutlet UILabel *labelSeven;
+@property (strong, nonatomic) IBOutlet UILabel *labelEight;
+@property (strong, nonatomic) IBOutlet UILabel *labelNine;
 @property (strong, nonatomic) IBOutlet UILabel *whichPlayerLabel;
 @property (strong, nonatomic) IBOutlet UILabel *myPoint;
 
 @property (strong, nonatomic) IBOutlet UIButton *LabelHelp;
-
 @property (strong, nonatomic) IBOutlet UIButton *LabelGoButton;
-
 @property (strong, nonatomic) IBOutlet UITapGestureRecognizer *myTapGester;
+@property NSString *notFirstTime;
+
+@property NSArray *labelArray;
+@property NSString *currentPlayer;
 
 
 @end
@@ -36,26 +38,38 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"viewDidLoad");
+    self.whichPlayerLabel.text = @"X";
+    self.labelArray = @[self.labelOne, self.labelTwo, self.labelThree, self.labelFour, self.labelFive, self.labelSix, self.labelSeven, self.labelEight, self.labelNine];
 
 }
-//-(CGPoint)findLabelUsingPoint:(CGPoint)point {
-//    NSLog(@"findLabelUsingPoint");
-//    CGPoint myPoint = [point.x]
-//    NSLog(@"point.x %f point.y is %f", self.myPoint.
-//    CGPoint myPoint = (
-//    return myPoint;
-//
-//}
 
 - (IBAction)onLabelTapped:(UITapGestureRecognizer *)sender {
-    NSLog(@"onLabelTapped");
     CGPoint point = [sender locationInView:self.view];
-    if (CGRectContainsPoint(self.LabelOne.frame, point)) {
-        NSLog(@"Labelone Tapped");
-    }
 
+    for (UILabel *label in self.labelArray) {
 
+        if (CGRectContainsPoint(label.frame, point)) {
+            NSLog(@"%@", label.text);
+            [self togglePlayer];
+            label.text = self.currentPlayer;
+//    self.whichPlayerLabel.text = self.currentPlayer;
+
+        }
     }
+}
+
+- (void) togglePlayer {
+    if ([self.currentPlayer isEqual:@"X"]) {
+        self.currentPlayer = @"O";
+        self.whichPlayerLabel.text = @"X";
+        self.whichPlayerLabel.backgroundColor = [UIColor blueColor];
+    } else {
+        self.currentPlayer = @"X";
+        self.whichPlayerLabel.text = @"O";
+        self.whichPlayerLabel.backgroundColor = [UIColor redColor];
+        }
+
+}
+
 
 @end
