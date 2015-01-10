@@ -5,12 +5,16 @@
 //  Created by David Miller on 1/8/15.
 //  Copyright (c) 2015 MobileMakers. All rights reserved.
 //
-//mmb 15-01-10 TODO center text in labels
-//mmb 15-01-10 TODO add a reset board
-//mmb 15-01-10 TODO add floating animation from LabelPlayer to destionation
-//mmb 15-01-10 TODO add winner logic method
-//mmb 15-01-10 DEL  myPoint probably dead code
-//mmb 15-01-10 ADD  Win NSArray win XXX or OOO
+//mmb 15-01-10 14:32 ADD center text in labels
+//mmb 15-01-10 14:31 ADD add a reset board
+//mmb 15-01-10 12:00 DEL  myPoint probably dead code
+//mmb 15-01-10 13:00 ADD  Win NSArray win XXX or OOO
+//
+//mmb 15-01-10 14:31 TODO disallow used tiles
+//mmb 15-01-10 12:00 TODO add floating animation from LabelPlayer to destionation
+//mmb 15-01-10 TODO addwinner logic method
+
+
 
 
 
@@ -95,18 +99,21 @@
         if (CGRectContainsPoint(label.frame, point)) {
             NSLog(@"%@", label.text);
             [self togglePlayer];
-            label.text = self.currentPlayer;
+            if ([label.text isEqualToString:@""]) {
+                label.text = self.currentPlayer;
 //    self.whichPlayerLabel.text = self.currentPlayer;
 ////////
-            if ([label.text isEqualToString:@"X"]) {
-                label.backgroundColor = [UIColor blueColor];
-                NSLog(@"set x background color");
+//            if ([label.text isEqualToString:@""]) {
+//                NSLog(@"is this blank label");
+                if ([label.text isEqualToString:@"X"]) {
+                    label.backgroundColor = [UIColor blueColor];
+                    NSLog(@"set x background color");
+                }
+                if ([label.text isEqualToString:@"O"]) {
+                    label.backgroundColor = [UIColor redColor];
+                    NSLog(@"set x background color");
+                }
             }
-            if ([label.text isEqualToString:@"O"]) {
-                label.backgroundColor = [UIColor redColor];
-                NSLog(@"set x background color");
-            }
-
 
         }
     }
@@ -124,6 +131,9 @@
         self.whichPlayerLabel.backgroundColor = [UIColor redColor];
         }
 
+}
+- (IBAction)onGoButtonTapped:(id)sender {
+    [self resetBoard];
 }
 
 
