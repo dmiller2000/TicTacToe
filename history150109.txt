@@ -1,0 +1,500 @@
+   25  brew update
+   26  brew search scribes
+   27  cd /usr
+   28  ls
+   29  cd bin
+   30  ls
+   31  cd ..
+   32  ls
+   33  cd local
+   34  ls
+   35  brew update
+   36  brew search git
+   37  brew status
+   38  man brew
+   39  brew search oclint
+   40  brew update
+   41  brew searh x11
+   42  brew search x11
+   43  brew search X11
+   44  cd /usr/local/bin
+   45  ls
+   46  ls mb*
+   47  less mbsaydatetime
+   48  cd ..
+   49  ls
+   50  cd bin
+   51  ls
+   52  cd ..
+   53  ls
+   54  cd etc
+   55  ls
+   56  cd ..
+   57  cd include
+   58  ls
+   59  cd ..
+   60  ls
+   61  cd lib
+   62  ls
+   63  cd ..
+   64  ls
+   65  ls opt
+   66  ls /opt/fortune
+   67  ls /opt/fortune/
+   68  cd opt
+   69  ls
+   70  cd fortune
+   71  ls
+   72  cd bin
+   73  ls
+   74  cd .
+   75  less README
+   76  ls
+   77  cd ..
+   78  ls
+   79  less README
+   80  cd Desktop
+   81  cd apps
+   82  ls
+   83  mkdir ColorSense-for-Xcode
+   84  cd Color
+   85  cd ColorSense-for-Xcode/
+   86  history |grep -i git
+   87  history
+   88   git remote add origin https://github.com/omz/ColorSense-for-Xcode.git
+   89  curl -fsSL https://raw.github.com/supermarin/Alcatraz/master/Scripts/install.sh | sh
+   90  sudo shutdown -h now
+   91  brew search shred
+   92  brew update
+   93  pwd
+   94  man brew
+   95  brew list
+   96  man easytag
+   97  man easy-tag
+   98  easy-tag
+   99  sudo locate.updatedb
+  100  man locate
+  101  man easy-tag
+  102  pwd
+  103  cd usr
+  104  cd /usr
+  105  ls
+  106  cd local
+  107  ls
+  108  cd bin
+  109  ls
+  110  ls e*
+  111  man easytag
+  112  cd easytag
+  113  ./easytag
+  114  man shred
+  115  brew update
+  116  brew search easy |grep -i tag
+  117  man brew
+  118  brew install easy-tag
+  119  sudo /usr/libexec/locate.updatedb
+  120  cd (null); clear; pwd
+  121  cd (null); clear; pwd
+  122  exit
+  123  brew upgrade
+  124  fortune
+  125  fortune
+  126  brew status
+  127  man brew
+  128  brew update
+  129  brew commands
+  130  brew list
+  131  man curl
+  132  man git
+  133  man everyday git
+  134  man gettuutorial
+  135  locate git-htmldocs
+  136  locate git
+  137  locate git-htmldocs/
+  138  pwd
+  139  hombrew update
+  140  homebrew update
+  141  brew update
+  142  man xmessage
+  143  ps aux
+  144  ps aux |grep -q xinit
+  145  ps aux |grep -i xinit
+  146  man grep
+  147  ps aux |grep -q xinit && xmessage X is running
+  148  ps aux |grep -q dog && xmessage Dog is running
+  149  ps aux |grep -i dog 
+  150  ps aux |grep -q funkymonkey && xmessage funkymonkey is running
+  151  ps aux |grep  funkymonkey 
+  152  ls
+  153  cd cd Junk
+  154  cd Junk
+  155  ls
+  156  ls
+  157  cd ..
+  158  ls /Junk
+  159  ls Jun
+  160  ls Junk
+  161  ls
+  162  ls Junk
+  163  cd tmp
+  164  pwd
+  165  cd /tmp
+  166  pwd
+  167  ls
+  168  cd ~
+  169  cd tmp
+  170  cd .tmp
+  171  pwd
+  172  cd /tmp
+  173  ls
+  174  rm stocks.plist
+  175  ls
+  176  ls
+  177  cat stocks.plist
+  178  rm stocks.plist
+  179  exit
+  180  ls /tmp
+  181  less stocks.plist
+  182  ls /tmp/stocks.plist
+  183  less /tmp/stocks.plist
+  184  ls
+  185  mkdir Junk
+  186  ls
+  187  exit
+  188  cal
+  189  brew search umbrello
+  190  brew upgrade
+  191  brew list
+  192  brew update
+  193  diskutil list
+  194  diskutil list
+  195  exit
+  196  sharing -l
+  197  sudo sharing -l
+  198  sudo sharing -l
+  199  exit
+  200  python --help
+  201  pwd
+  202  ls
+  203  cd Music
+  204  ls
+  205  cd iTunes
+  206  ls
+  207  cd iTunes Media
+  208  cd "iTunes Media"
+  209  ls
+  210  cd Downloads
+  211  ls
+  212  cd ..
+  213  cd ..
+  214  cd ..
+  215  cd ..
+  216  ls
+  217  cd Desktop
+  218  ls
+  219  cd "Matt Notes"
+  220  ls mat*
+  221  ls Mat*
+  222  ls Matt*
+  223  ls .
+  224  cd "Matt  Notes"
+  225  ls
+  226  cd MattMusic
+  227  ls
+  228  ifconfig eth0
+  229  ifconfig
+  230  ifconfig en0
+  231  python -m SimpleHTTPServer
+  232  smbtree
+  233  exit
+  234  ifconfig
+  235  mtr sandy1
+  236  mtr 192.168.2.1
+  237  mtr Sandy1
+  238  mtr Sandy2
+  239  mtr SS4200e
+  240  mtr ss4200e
+  241  ifconfig
+  242  ls
+  243  man tree
+  244  tree -d -f |grep -i ios|grep 8
+  245  tree -d -f |grep -i "ios 8"
+  246  ifconfig
+  247  ls
+  248  cd Desktop
+  249  cd apps
+  250  los
+  251  ls
+  252  ls -a
+  253  git init
+  254  ;s
+  255  ls
+  256  cd VikTaxApp1
+  257  ls
+  258  ls -a
+  259  cd ..
+  260  rmdir .git
+  261  man rmdir
+  262  del .git
+  263  rm .git
+  264  rm ./git
+  265  rm -rf .git
+  266  ls
+  267  ls -a
+  268  cd VikTaxApp1/
+  269  git add README.md
+  270  touch README.md
+  271  git add README.md
+  272  git commit -m "first commit"
+  273  git status
+  274  git remote add origin https://github.com/yesand/VikTaxApp1.git
+  275  git push -u origin master
+  276  history
+  277  rm -rf .git
+  278  touch README.md
+  279  git init
+  280  git add README.md
+  281  git commit -m "first comit"
+  282  git config --global user.name "yesand"
+  283  git config --global user.email "matthew.m.bradshaw@gmail.com"
+  284      git commit --amend --reset-author
+  285      git commit --amend --reset-author
+  286  git commit -m "Second Commit"
+  287  git status
+  288   https://github.com/yesand/VikTaxApp1.git
+  289  git remote add origin https://github.com/yesand/VikTaxApp1.git
+  290  git status
+  291  rm -rf .git
+  292  rm README.md 
+  293  touch README.md
+  294  git init
+  295  git add README.md
+  296  git commit -m "third commit"
+  297  git status
+  298  git add *
+  299  git commit -m "fourth commit"
+  300  git status
+  301   https://github.com/yesand/VikTaxApp1.git
+  302  git remote add origin https://github.com/yesand/VikTaxApp1.git
+  303  git push -u origin master
+  304  rm -rm .git
+  305  rm -rf .git
+  306  rm README.md 
+  307  git config --global user.name “yesand”
+  308  git config --global user.email “matthew.m.bradshaw@gmail.com"
+  309  df
+  310  hostname
+  311  ls .al
+  312  ls
+  313  ls -a
+  314  ls -al ~/.ssh
+  315  exit
+  316  cd Apps
+  317  ls
+  318  cd apps
+  319  cd Desktop
+  320  cd apps
+  321  ls
+  322  cd VikTaxApp1/
+  323  ls
+  324  git config --global user.email “matthew.m.bradshaw@gmail.com" 
+  325  "
+  326  git config --globl user.email "matthew.m.bradshaw@gmail.com" 
+  327  git config --global user.email "matthew.m.bradshaw@gmail.com" 
+  328  git config --global user.email "matthew.m.bradshaw@gmail.com" 
+  329  git comit --amend --reset-author
+  330  git commit --amend --reset-author
+  331  git init
+  332  rm -rf .git
+  333  git config --global user.name "yesand"
+  334  git config --global user.email "matthew.m.bradshaw@gmail.com"
+  335  git status
+  336  git init
+  337  git status
+  338  git remote add origin https://github.com/yesand/VikTaxApp1.git
+  339  git add .
+  340  git commit -m "commit 5"
+  341  git status
+  342  history
+  343  git push origin master
+  344  git push origin master
+  345  git push origin master
+  346  user
+  347  users
+  348  host
+  349  who
+  350  cd ..
+  351  cp /Users/matthewbradshaw/Downloads/taxcalculator.zip .
+  352  ls
+  353  open tax
+  354  open taxcalculator.zip 
+  355  git remote add origin git@github.com:yesand/Max1.git
+  356  ls 
+  357  cd Max1
+  358  git remote add origin git@github.com:yesand/Max1.git
+  359  git push -u origin master
+  360  cd ~/.git
+  361  ls
+  362  cd ~/.ssh/
+  363  ls
+  364  cd -
+  365  cat ~/.gitconfig 
+  366  git config --unset-all credential.helper
+  367  git config --global --unset-all credential.helper
+  368  git config --system --unset-all credential.helper
+  369  git push -u origin master
+  370  git push -u origin master
+  371  git remote -v
+  372  git config --global --unset credential.helper
+  373  git push -u origin master
+  374  cd Desktop/apps/Max1/
+  375  ls
+  376  git push origin master
+  377  git remote -v
+  378  git remote rm origin
+  379  git remote add origin https://github.com/yesand/Max1.git
+  380  git push origin master
+  381  cd ..
+  382  ls
+  383  cd IWannaBeBlue/
+  384  cd ..
+  385  mkdir AaronTheTitan
+  386  cd AaronTheTitan/
+  387  cd ..
+  388  cd ..
+  389  ls
+  390  cd apps
+  391  ls
+  392  cd IntergalacticTravel2/
+  393  git status
+  394  get add -A
+  395  git add -A
+  396  git status
+  397  git commit -m"Setup first view controller"
+  398  git status
+  399  gitx
+  400  gitx
+  401  gitx
+  402  git status
+  403  cd ..
+  404  ls
+  405  cd ..
+  406  git status
+  407  git add -A
+  408  git status
+  409  git commit 
+  410  git status
+  411  git status
+  412  git add -A
+  413  git status
+  414  git commit
+  415  gitx
+  416  git status
+  417  git add -A
+  418  git status 
+  419  git commit
+  420  git status
+  421  gitx
+  422  git status
+  423  git add SafariTNG/ViewController.m
+  424  git commit
+  425  git status
+  426  gitx
+  427  git status
+  428  git commit
+  429  git add -A
+  430  git status
+  431  git commit
+  432  git status
+  433  cd ..
+  434  ls
+  435  cd MySafari/
+  436  git status
+  437  git add -A
+  438  git status
+  439  git commit
+  440  git status
+  441  cd ..
+  442  ls
+  443  cd MinorityReport/
+  444  git status
+  445  git add .
+  446  git commit 'Commit 1'
+  447  git commit -m 'Commit 1'
+  448  git status
+  449  git add .
+  450  git commit -m 'Commit 2'
+  451  git status
+  452  git status
+  453  git commit -m "just added uipan to label"
+  454  git add .
+  455  git commit -m "just added uipan to label"
+  456  git add .
+  457  git commit -m "added UIPanGestureRecognizer from label to full VC and point as TheFuture label"
+  458  git status
+  459  git add .
+  460  git status
+  461  git commit 
+  462  git status
+  463  git status
+  464  git add .
+  465  git commit 
+  466  git status
+  467  git status
+  468  git add .
+  469  git commit -m "animate, when block done, change label to yellow"
+  470  git status
+  471  cd ..
+  472  ls
+  473  mkdir TicTacToe
+  474  cd TicTacToe/
+  475  ls
+  476  ls
+  477  git remote add origin https://github.com/dmiller2000/TicTacToe.git
+  478  cd ..
+  479  rmdir TicTacToe
+  480  ls
+  481  git clone https://github.com/dmiller2000/TicTacToe.git
+  482  ls
+  483  cd TicTacToe/
+  484  ls
+  485  open .
+  486  git remote
+  487  ls
+  488  cd ..
+  489  ls
+  490  cd Multiply/
+  491  ls
+  492  less Multiply.xcodeproj
+  493  cd ..
+  494  cd TicTacToe/
+  495  ls
+  496  git pull origin master
+  497  gitx
+  498  git pull origin master
+  499  git status
+  500  exit
+  501  history
+  502  pwd
+  503  cd Desktop
+  504  ls
+  505  cd apps
+  506  ls
+  507  cd TicTacToe/
+  508  history
+  509  git pull origin master
+  510  git pull origin master
+  511  gitx
+  512  git checkout c80a005
+  513  git checkout -b goodCommit
+  514  git checkout master
+  515  git merge goodCommit
+  516  git checkout goodCommit
+  517  git commit -am "Something so we can merge"
+  518  git checkout master
+  519  git merge goodCommit
+  520  git reset c80a005380167ec8e3dec484566366eb5322eb9e
+  521  git status
+  522  git stash
+  523  history
+  524  history > history150109.txt

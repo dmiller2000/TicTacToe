@@ -164,17 +164,17 @@
                         </connections>
                     </view>
                     <connections>
-                        <outlet property="LabelEight" destination="P6f-ld-sk1" id="EIG-f1-NIV"/>
-                        <outlet property="LabelFive" destination="Y3m-Xs-uL2" id="7dL-8g-Npo"/>
-                        <outlet property="LabelFour" destination="qwZ-2j-ZU4" id="QAL-t3-tYa"/>
                         <outlet property="LabelGoButton" destination="mxd-g1-c7W" id="W8H-FV-7nY"/>
                         <outlet property="LabelHelp" destination="218-6A-bVo" id="SIp-60-Tgd"/>
-                        <outlet property="LabelNine" destination="5kK-Qx-7mV" id="j4K-rV-nWM"/>
-                        <outlet property="LabelOne" destination="xYp-ih-6v1" id="F1B-lt-rbM"/>
-                        <outlet property="LabelSeven" destination="6M6-Zg-21c" id="BvN-bF-gB8"/>
-                        <outlet property="LabelSix" destination="6d2-rB-9hA" id="rae-F4-KYt"/>
-                        <outlet property="LabelThree" destination="BzB-66-Qjv" id="hq5-K5-yEI"/>
-                        <outlet property="LabelTwo" destination="0x4-My-6ci" id="5OQ-XI-tQj"/>
+                        <outlet property="labelEight" destination="P6f-ld-sk1" id="IjL-MC-24O"/>
+                        <outlet property="labelFive" destination="Y3m-Xs-uL2" id="s2r-HV-RnN"/>
+                        <outlet property="labelFour" destination="qwZ-2j-ZU4" id="leg-Gu-HdG"/>
+                        <outlet property="labelNine" destination="5kK-Qx-7mV" id="Y8B-66-k8p"/>
+                        <outlet property="labelOne" destination="xYp-ih-6v1" id="C0f-KO-AIj"/>
+                        <outlet property="labelSeven" destination="6M6-Zg-21c" id="HHk-k7-4zp"/>
+                        <outlet property="labelSix" destination="6d2-rB-9hA" id="f4C-5u-VZd"/>
+                        <outlet property="labelThree" destination="BzB-66-Qjv" id="5iD-Mf-XbB"/>
+                        <outlet property="labelTwo" destination="0x4-My-6ci" id="fZM-1x-moN"/>
                         <outlet property="myTapGester" destination="zJ1-RN-hKI" id="HkW-nb-Vui"/>
                         <outlet property="whichPlayerLabel" destination="O9q-33-KZL" id="SeH-Rm-ubq"/>
                     </connections>
@@ -186,7 +186,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1045.5" y="352"/>
+            <point key="canvasLocation" x="1242" y="381"/>
         </scene>
     </scenes>
 </document>
